@@ -1,0 +1,286 @@
+<!-- privacy-policy.html -->
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-[#020202]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>Privacy Policy | Wonderkind Media</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" href="logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS Setup -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#030303',
+                            light: '#ffffff',
+                            gray: '#a1a1aa',
+                            gold: '#D4AF37',
+                            goldlight: '#F3E5AB',
+                            golddark: '#AA771C'
+                        }
+                    },
+                    backgroundImage: {
+                        'brand-gradient': 'linear-gradient(135deg, #E5C07B 0%, #D4AF37 50%, #AA771C 100%)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --brand-gradient: linear-gradient(135deg, #E5C07B 0%, #D4AF37 50%, #AA771C 100%);
+            --gold: #D4AF37;
+        }
+        * { box-sizing: border-box; }
+        body { background-color: #030303; color: #ffffff; cursor: default; }
+        .text-gradient {
+            background: var(--brand-gradient);
+            -webkit-background-clip: text; color: transparent;
+        }
+        .glass {
+            background: rgba(10, 10, 10, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #030303; }
+        ::-webkit-scrollbar-thumb { background: #222; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-gold selection:text-black relative">
+
+    <!-- Navigation -->
+    <div class="w-full top-0 z-[100] py-6 absolute">
+        <div class="max-w-7xl mx-auto px-5 lg:px-8 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3 md:gap-4 shrink-0 group">
+                <img src="logo.png" alt="Wonderkind Logo" class="h-6 md:h-8 w-auto object-contain transition-transform group-hover:scale-105">
+                <span class="font-display font-bold text-sm md:text-base tracking-widest text-white whitespace-nowrap">
+                    WONDER<span class="text-gradient">KIND</span>
+                </span>
+            </a>
+            <a href="index.html" class="inline-flex items-center gap-2 text-brand-gold text-[10px] md:text-xs font-bold uppercase tracking-[2px] hover:text-white transition-colors">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <section class="pt-32 pb-24 relative z-10">
+        <div class="absolute top-0 right-0 w-64 h-64 md:w-[600px] md:h-[600px] bg-brand-gold rounded-full mix-blend-screen filter blur-[250px] opacity-10 pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 md:px-12 max-w-4xl glass p-8 md:p-12 rounded-3xl mt-8">
+            <div class="mb-12 border-b border-white/10 pb-8">
+                <h1 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
+                <p class="text-brand-gold text-xs font-bold uppercase tracking-[3px]">Effective Date: 20 May 2026</p>
+            </div>
+
+            <div class="space-y-8 text-gray-400 text-sm md:text-base font-light leading-relaxed">
+                <p>This Privacy Policy (“Policy”) governs the manner in which Wonderkind Media Pvt Ltd (“Company”, “Wonderkind Media”, “we”, “our”, or “us”) collects, uses, stores, processes, and protects information obtained from users (“User”, “Client”, “you”, or “your”) of this website and related services.</p>
+                <p>By accessing this website, engaging with our services, or submitting information through any communication channel, you acknowledge that you have read, understood, and agreed to this Privacy Policy.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">1. COMPANY DETAILS</h2>
+                <p>
+                    Wonderkind Media Pvt Ltd<br>
+                    Kharghar, Navi Mumbai, Maharashtra, India<br>
+                    Phone: +91 7382616791<br>
+                    Email: office.wonderkind@gmail.com
+                </p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">2. INFORMATION WE COLLECT</h2>
+                <p>We may collect, process, and store the following categories of information:</p>
+
+                <h3 class="text-brand-gold text-sm font-bold uppercase mt-6 mb-2">A. Personal Information</h3>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Name</li>
+                    <li>• Phone number</li>
+                    <li>• Email address</li>
+                    <li>• Business/company information</li>
+                    <li>• Billing information</li>
+                    <li>• Communication records</li>
+                </ul>
+
+                <h3 class="text-brand-gold text-sm font-bold uppercase mt-6 mb-2">B. Project-Related Information</h3>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Creative briefs</li>
+                    <li>• Brand assets</li>
+                    <li>• Logos, videos, images, scripts</li>
+                    <li>• Social media details</li>
+                    <li>• Production requirements</li>
+                </ul>
+
+                <h3 class="text-brand-gold text-sm font-bold uppercase mt-6 mb-2">C. Technical & Website Usage Data</h3>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• IP address</li>
+                    <li>• Browser/device information</li>
+                    <li>• Cookies and tracking data</li>
+                    <li>• Website interaction analytics</li>
+                    <li>• Referral sources</li>
+                </ul>
+
+                <h3 class="text-brand-gold text-sm font-bold uppercase mt-6 mb-2">D. Marketing & Communication Data</h3>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Inquiry forms</li>
+                    <li>• WhatsApp communications</li>
+                    <li>• Newsletter subscriptions</li>
+                    <li>• Advertisement interactions</li>
+                </ul>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">3. PURPOSE OF DATA COLLECTION</h2>
+                <p>We collect and use information for legitimate business purposes including:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Responding to inquiries and proposals</li>
+                    <li>• Delivering media production services</li>
+                    <li>• Managing projects and communications</li>
+                    <li>• Processing payments and invoices</li>
+                    <li>• Improving website performance and user experience</li>
+                    <li>• Marketing and promotional activities</li>
+                    <li>• Legal and regulatory compliance</li>
+                    <li>• Internal analytics and business operations</li>
+                </ul>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">4. LEGAL BASIS OF PROCESSING</h2>
+                <p>Information is processed based on:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• User consent</li>
+                    <li>• Contractual obligations</li>
+                    <li>• Legitimate business interests</li>
+                    <li>• Legal compliance requirements</li>
+                </ul>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">5. COOKIES & TRACKING TECHNOLOGIES</h2>
+                <p>Our website may use cookies, pixels, and tracking technologies including but not limited to:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Google Analytics</li>
+                    <li>• Meta/Facebook Pixel</li>
+                    <li>• YouTube integrations</li>
+                    <li>• Embedded third-party media</li>
+                </ul>
+                <p class="mt-4">These technologies help us:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Understand website traffic</li>
+                    <li>• Improve performance</li>
+                    <li>• Optimize advertising campaigns</li>
+                    <li>• Enhance user experience</li>
+                </ul>
+                <p class="mt-4">Users may disable cookies through browser settings; however, some website functionalities may be affected.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">6. THIRD-PARTY SERVICES</h2>
+                <p>We may use trusted third-party service providers for:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Hosting</li>
+                    <li>• Analytics</li>
+                    <li>• Cloud storage</li>
+                    <li>• Payment gateways</li>
+                    <li>• Social media integrations</li>
+                    <li>• Communication services</li>
+                </ul>
+                <p class="mt-4">These providers operate under their own privacy policies, and we are not responsible for third-party practices beyond our reasonable control.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">7. DATA SHARING & DISCLOSURE</h2>
+                <p>We do not sell personal information.</p>
+                <p>Information may be disclosed only:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• To employees, contractors, editors, production teams, or vendors involved in project execution</li>
+                    <li>• For payment processing and technical support</li>
+                    <li>• To comply with legal obligations, court orders, or government authorities</li>
+                    <li>• To protect rights, safety, or intellectual property of the Company</li>
+                </ul>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">8. DATA SECURITY</h2>
+                <p>We implement commercially reasonable administrative, technical, and organizational safeguards to protect information against:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Unauthorized access</li>
+                    <li>• Data loss</li>
+                    <li>• Misuse</li>
+                    <li>• Disclosure or alteration</li>
+                </ul>
+                <p class="mt-4">However, no digital transmission or storage system can guarantee absolute security.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">9. DATA RETENTION</h2>
+                <p>We retain information only for as long as reasonably necessary for:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Project execution</li>
+                    <li>• Accounting and taxation compliance</li>
+                    <li>• Legal obligations</li>
+                    <li>• Dispute resolution</li>
+                    <li>• Internal business records</li>
+                </ul>
+                <p class="mt-4">Archived project files and communication records may be retained for operational and portfolio purposes unless deletion is requested in writing and legally permissible.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">10. INTELLECTUAL PROPERTY & MEDIA USAGE</h2>
+                <p>Unless otherwise agreed in writing:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• All concepts, edits, previews, drafts, motion graphics, and creative materials developed by Wonderkind Media remain intellectual property of the Company until full payment is received.</li>
+                    <li>• The Company reserves the right to display completed projects, behind-the-scenes content, and excerpts for portfolio, website, marketing, social media, award submissions, and promotional purposes.</li>
+                </ul>
+                <p class="mt-4">Clients requesting confidentiality or NDA-based restrictions must notify the Company prior to project commencement.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">11. USER RIGHTS</h2>
+                <p>Subject to applicable law, users may request:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Access to their information</li>
+                    <li>• Correction of inaccurate data</li>
+                    <li>• Deletion of certain data</li>
+                    <li>• Withdrawal of consent for marketing communication</li>
+                </ul>
+                <p class="mt-4">Requests may be submitted via email.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">12. CHILDREN’S PRIVACY</h2>
+                <p>Our services are not intended for individuals below 18 years of age without guardian consent.</p>
+                <p>We do not knowingly collect personal information from minors.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">13. LIMITATION OF LIABILITY</h2>
+                <p>Wonderkind Media Pvt Ltd shall not be liable for:</p>
+                <ul class="list-none space-y-2 ml-4">
+                    <li>• Third-party platform breaches</li>
+                    <li>• Unauthorized hacking attempts</li>
+                    <li>• Data loss beyond reasonable control</li>
+                    <li>• Technical interruptions or internet failures</li>
+                </ul>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">14. GOVERNING LAW</h2>
+                <p>This Policy shall be governed under the laws of India.</p>
+                <p>Any disputes arising shall be subject to the exclusive jurisdiction of competent courts located in Navi Mumbai / Maharashtra.</p>
+
+                <h2 class="text-white text-xl md:text-2xl font-display font-bold mt-12 mb-4">15. POLICY MODIFICATIONS</h2>
+                <p>The Company reserves the right to modify this Privacy Policy at any time without prior notice.</p>
+                <p>Continued use of the website constitutes acceptance of revised terms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-white/5 pt-10 pb-10">
+        <div class="container mx-auto px-6 md:px-12 max-w-7xl">
+            <div class="flex flex-col md:flex-row justify-between items-center text-[11px] font-light tracking-wider text-gray-500 text-center md:text-left gap-4">
+                <p>&copy; 2026 Wonderkind Media Pvt Ltd. All rights reserved.</p>
+                <p class="uppercase tracking-[2px]">Designed for Cinematic Excellence.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
